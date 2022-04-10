@@ -1,4 +1,4 @@
-package com.edurekademo.utilities;
+package com.manikdemo.utilities;
 
 import java.lang.reflect.InvocationTargetException;
 import java.util.Date;
@@ -42,7 +42,7 @@ public class CaseInsensitiveComparator extends GenericComparator {
 
         /*
          * (non-Javadoc)
-         * @see com.edurekademo.utilities.GenericComparator#compare(java.lang.Object, java.lang.Object)
+         * @see com.manikdemo.utilities.GenericComparator#compare(java.lang.Object, java.lang.Object)
          */
         public int compare(Object o1, Object o2) {
                 int response = LESSER;
