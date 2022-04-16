@@ -1,68 +1,45 @@
-Addressbook Tutorial
-====================
+**Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**
 
-This tutorial teaches you some of the basic concepts in [Vaadin Framework](https://vaadin.com). It is meant to be
-a fast read for learning how to get started - not an example on how application should be
-designed. Please note this example uses and requires Java 8 to work.
+When you're done, you can delete the content in this README and update the file with details for others getting started with your repository.
 
-![Addressbook Screenshot](addressbook_screenshot.png "Addressbook Screenshot")
+*We recommend that you open this README in another tab as you perform the tasks below. You can [watch our video](https://youtu.be/0ocf7u76WSo) for a full demo of all the steps in this tutorial. Open the video in a new tab to avoid leaving Bitbucket.*
 
+---
 
-Running the example from the command line
--------------------
-```
-$ mvn jetty:run
-```
+## Edit a file
 
-Open [http://localhost:8080/](http://localhost:8080/)
+You’ll start by editing this README file to learn how to edit a file in Bitbucket.
 
+1. Click **Source** on the left side.
+2. Click the README.md link from the list of files.
+3. Click the **Edit** button.
+4. Delete the following text: *Delete this line to make a change to the README from Bitbucket.*
+5. After making your change, click **Commit** and then **Commit** again in the dialog. The commit page will open and you’ll see the change you just made.
+6. Go back to the **Source** page.
 
-Importing in IntelliJ IDEA 14
---------------------
-These instructions were tested on IntelliJ IDEA 14 CE. You can get it from https://www.jetbrains.com/idea/
+---
 
-To get the project up and running in IDEA, do:
-- File -> New -> Project from Version Control -> Git
-- The URL to use is https://github.com/vaadin/addressbook.git
-- If you get a message about "Non-managed pom.xml file found". Choose "Add as Maven Project"
-- If you get a message about no JDK or SDK being selected. Choose "Configure" and select your installed JDK. You can also set the JDK using File -> Project Structure
-- To start the project, find the "Maven Projects" tab on the right hand side of the screen and navigate to
-  - Vaadin Web Application -> Plugins -> jetty -> jetty:run
-  - Click the play button or right click and select Run (Select Debug instead to run in debug mode)
+## Create a file
 
-You should now have a Jetty server running on localhost:8080. Navigate to http://localhost:8080 to play with the application
+Next, you’ll add a new file to this repository.
 
-Importing in NetBeans 8
---------------------
-These instructions were tested on NetBeans 8.0.2. You can get it from https://www.netbeans.org
+1. Click the **New file** button at the top of the **Source** page.
+2. Give the file a filename of **contributors.txt**.
+3. Enter your name in the empty file space.
+4. Click **Commit** and then **Commit** again in the dialog.
+5. Go back to the **Source** page.
 
-To checkout and run the project in NetBeans, do:
-- Team -> Git -> Clone
-- Set repository URL to https://github.com/vaadin/addressbook.git
-- Finish
-- Right click the imported project (Vaadin Addressbook Application) and select Run
-- Select GlassFish Server 4.1 -> Remember in Current IDE Session -> OK
+Before you move on, go ahead and explore the repository. You've already seen the **Source** page, but check out the **Commits**, **Branches**, and **Settings** pages.
 
-You should now have a GlassFish server running on localhost:8080 and a browser tab should also be automatically opened with this location
+---
 
-Importing in Eclipse
---------------------
-These instructions were tested on Eclipse IDE for Java EE Developers Luna SR2. You can get it from http://eclipse.org/downloads/
+## Clone a repository
 
-To checkout and run the project in Eclipse, do:
-- File -> Import...
-- Check out Maven Projects from SCM
-- Choose Git from SCM menu
-  - If you do not see "Git" in the SCM menu, click "Find more SCM connectors in the m2e Marketplace" and install "m2e-egit". Restart Eclipse and start over.
-- Set the repository URL to https://github.com/vaadin/addressbook.git
-- Right click the imported "addressbook" and choose Run As -> Maven Build...
-  - Set the goal to "jetty:run" and click "Run"
+Use these steps to clone from SourceTree, our client for using the repository command-line free. Cloning allows you to work on your files locally. If you don't yet have SourceTree, [download and install first](https://www.sourcetreeapp.com/). If you prefer to clone from the command line, see [Clone a repository](https://confluence.atlassian.com/x/4whODQ).
 
-You should now have a Jetty server running on localhost:8080. Navigate to [http://localhost:8080/](http://localhost:8080/) to play with the application
+1. You’ll see the clone button under the **Source** heading. Click that button.
+2. Now click **Check out in SourceTree**. You may need to create a SourceTree account or log in.
+3. When you see the **Clone New** dialog in SourceTree, update the destination path and name if you’d like to and then click **Clone**.
+4. Open the directory you just created to see your repository’s files.
 
-To use the built in server adapters of Eclipse, instead of doing "Run As -> Maven Build..." you can do
-- Run As -> Run on Server
-- Select the server you want to run on, e.g. Apache Tomcat 8 and click ok
-- *Do not use the suggested J2EE Preview server* as it is outdated, deprecated and does not support Servlet 3, which is required for this application
-
-*** End of documentation
+Now that you're more familiar with your Bitbucket repository, go ahead and add a new file locally. You can [push your change back to Bitbucket with SourceTree](https://confluence.atlassian.com/x/iqyBMg), or you can [add, commit,](https://confluence.atlassian.com/x/8QhODQ) and [push from the command line](https://confluence.atlassian.com/x/NQ0zDQ).
