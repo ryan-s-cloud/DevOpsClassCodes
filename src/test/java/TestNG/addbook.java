@@ -28,7 +28,10 @@ public class addbook {
 	  driver.findElement(By.id("gwt-uid-9")).sendKeys("12345643210");
 	  driver.findElement(By.id("gwt-uid-11")).sendKeys("varun@gmail.com");
 	  driver.findElement(By.id("gwt-uid-13")).sendKeys("16/04/2022");
-	//   Thread.sleep(5000);
+          try {
+            Thread.sleep(5000);
+          } catch (Exception e) {
+	  }
 	  driver.findElement(By.xpath("//div[@class='v-button v-widget primary v-button-primary']")).click();
   }
   
