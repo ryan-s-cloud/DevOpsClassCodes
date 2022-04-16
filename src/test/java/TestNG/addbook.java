@@ -31,8 +31,8 @@ public class addbook {
 	  driver.findElement(By.xpath("//div[@class='v-button v-widget primary v-button-primary']")).click();
   }
   
-//   @AfterMethod
-//   public void close() {
-// 	  driver.close();
-// 	}
+  @AfterMethod
+  public void close() {
+	  driver.close();
+	}
 }
